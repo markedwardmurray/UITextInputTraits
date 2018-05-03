@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DEFF87A209964AE0068400B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFF879209964AE0068400B /* AppDelegate.swift */; };
-		4DEFF87C209964AE0068400B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFF87B209964AE0068400B /* ViewController.swift */; };
-		4DEFF87F209964AE0068400B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFF87D209964AE0068400B /* Main.storyboard */; };
+		4DEFF87C209964AE0068400B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFF87B209964AE0068400B /* TableViewController.swift */; };
 		4DEFF881209964AE0068400B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFF880209964AE0068400B /* Assets.xcassets */; };
 		4DEFF884209964AE0068400B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFF882209964AE0068400B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +16,7 @@
 /* Begin PBXFileReference section */
 		4DEFF876209964AE0068400B /* UITextInputTraits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextInputTraits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEFF879209964AE0068400B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DEFF87B209964AE0068400B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DEFF87E209964AE0068400B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DEFF87B209964AE0068400B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4DEFF880209964AE0068400B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DEFF883209964AE0068400B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DEFF885209964AE0068400B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4DEFF879209964AE0068400B /* AppDelegate.swift */,
-				4DEFF87B209964AE0068400B /* ViewController.swift */,
-				4DEFF87D209964AE0068400B /* Main.storyboard */,
+				4DEFF87B209964AE0068400B /* TableViewController.swift */,
 				4DEFF880209964AE0068400B /* Assets.xcassets */,
 				4DEFF882209964AE0068400B /* LaunchScreen.storyboard */,
 				4DEFF885209964AE0068400B /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				4DEFF884209964AE0068400B /* LaunchScreen.storyboard in Resources */,
 				4DEFF881209964AE0068400B /* Assets.xcassets in Resources */,
-				4DEFF87F209964AE0068400B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEFF87C209964AE0068400B /* ViewController.swift in Sources */,
+				4DEFF87C209964AE0068400B /* TableViewController.swift in Sources */,
 				4DEFF87A209964AE0068400B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DEFF87D209964AE0068400B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DEFF87E209964AE0068400B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DEFF882209964AE0068400B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,7 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV3XT3P5XH;
+				DEVELOPMENT_TEAM = 4YFVWFGQC2;
 				INFOPLIST_FILE = UITextInputTraits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markedwardmurray.UITextInputTraits;
@@ -290,7 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV3XT3P5XH;
+				DEVELOPMENT_TEAM = 4YFVWFGQC2;
 				INFOPLIST_FILE = UITextInputTraits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markedwardmurray.UITextInputTraits;
