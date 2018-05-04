@@ -154,12 +154,6 @@ class TableViewController: UITableViewController {
      
         return cell
     }
-    
-    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        super.scrollViewDidScroll(scrollView)
-        
-        textField.resignFirstResponder()
-    }
 }
 
 extension TableViewController: UITextFieldDelegate {
